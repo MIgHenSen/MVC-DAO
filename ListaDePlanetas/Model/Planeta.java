@@ -4,11 +4,9 @@ package Model;
  * declaramos atributos e metodos, que representam, respectivamente as 
  * caracteristicas e comportamentos desse objeto */
 public class Planeta {
-	// Atributo nome(String, conjunto de caracteres)
 	private String nome;
 	
-/* Construtor, que torna obrigatório as informacoes para referenciar
- * esse objeto */
+/* Construtor */
 	public Planeta(String nome) {
 		this.nome = nome;
 	}
